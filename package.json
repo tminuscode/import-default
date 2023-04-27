@@ -1,16 +1,9 @@
 {
   "name": "import-default",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "dependencies": {
-    "@tpluscode/eslint-config": "^0.4.3",
+    "eslint": "^8",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-config-standard": "^17.0.0",
     "rdf-loader-code": "^0.3.3"
   }
 }
