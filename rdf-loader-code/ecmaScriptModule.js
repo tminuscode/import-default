@@ -9,9 +9,9 @@ async function loader ({ term, dataset }, { basePath } = {}) {
     throw new Error(`Cannot load ecmaScriptModule from term ${term.value}`)
   }
 
-  const { filename, method } = iriResolve(link.value, basePath)
+  const { method } = iriResolve(link.value, basePath)
 
-  const code = await import(filename)
+  let code// = await import(filename)
 
   if (!method) {
     return code
