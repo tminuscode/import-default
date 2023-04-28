@@ -1,6 +1,6 @@
 ```
 npm install
-npx lint .
+npx eslint .
 ```
 
 Expect no errors but find one
